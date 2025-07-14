@@ -12,6 +12,11 @@ public class DebitController {
 		return "getData";
 	}
 	
+	@RequestMapping("/data")
+	public String getDataa()
+	{
+		return "getData";
+	}
 	
 	
 }
